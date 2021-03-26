@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Task</title>
+
+</head>
+
+<body>
+    <a href="https://yandex.ru">Яндекс</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://duckduckgo.com">DuckDuckGo</a>
+</body>
+
+<script>
+    var arr1 = document.getElementsByTagName('a'),
+        arr2 = document.querySelectorAll("a");
+
+    document.body.appendChild(document.createElement("a"));
+    console.log(arr1.length, arr2.length);
+</script>
+
+</html>
